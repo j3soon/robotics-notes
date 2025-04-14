@@ -31,3 +31,16 @@ Q: How can I run Isaac Sim in GUI mode on an Ubuntu server (non-desktop environm
 A: You can use [WebRTC](https://docs.isaacsim.omniverse.nvidia.com/latest/installation/manual_livestream_clients.html) or desktop forwarding such as VNC. Make sure you have a stable internet connection between the server and the client. Otherwise, you may encounter latency (or lagging) issues.
 
 > 2025-03-03. Isaac Sim v4.5.0. <!-- Ack: Eric Chen. -->
+
+## (Open Issue) Blurry Screen on RTX 50 Series GPUs
+
+Q: The Isaac Sim GUI is blurry on my RTX 50 series GPU.
+
+A: This is a known issue and should be fixed in the next release.
+
+References:
+
+- [The Isaac Sim GUI is blurry](https://forums.developer.nvidia.com/t/the-isaac-sim-gui-is-blurry/327759)
+- [Isaac Sim Rendering Issue on RTX 50 series](https://forums.developer.nvidia.com/t/isaac-sim-rendering-issue-on-rtx-50-series/329300)
+
+> 2025-04-08. Isaac Sim v4.5.0. <!-- Ack: Jease. -->

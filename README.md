@@ -6,6 +6,10 @@ Table of Contents:
 - [Docker Isaac Sim](./docker-isaac-sim.md)
 - [NVIDIA Isaac Summary](./nvidia-isaac-summary.md)
 
+All documentation sources are available at [j3soon/robotics-notes](https://github.com/j3soon/robotics-notes) on GitHub.
+
+If you have any questions, please [open an issue](https://github.com/j3soon/robotics-notes/issues/new).
+
 > This repository is part of the [Tutorial](https://github.com/j3soon/tutorial) collection and is hosted on the [Tutorial Website](https://tutorial.j3soon.com/robotics/). The page source can be found at [j3soon/robotics-notes](https://github.com/j3soon/robotics-notes).
 
 ## Contributors

@@ -81,6 +81,7 @@ References:
 - [`jetsonhacks/jetson-orin-gpio-patch`](https://github.com/jetsonhacks/jetson-orin-gpio-patch)
 
 > 2024-11-08. Jetson Orin Nano. <!-- Ack: [@otischung](https://github.com/otischung). -->
+>
 > - Jetpack 6.0 L4T 36.3.0
 > - Jetpack 6.1 L4T 36.4.0
 > - Jetpack 6.2 L4T 36.4.3
