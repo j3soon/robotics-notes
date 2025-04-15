@@ -2,9 +2,27 @@
 
 This page lists components in robotics that are no longer actively maintained or supported. This includes components that are deprecated, have reached End-of-Life (EOL), or have been rebranded under different names. The information here helps users migrate from legacy systems to currently supported alternatives.
 
+## Omniverse Launcher
+
+[Omniverse Launcher](https://docs.omniverse.nvidia.com/launcher/latest/overview.html) and legacy tools [will be deprecated on October 1, 2025](https://developer.nvidia.com/omniverse/legacy-tools).
+
+> Launcher will be deprecated on October 1, 2025.
+>
+> -- [NVIDIA Omniverse Launcher](https://developer.nvidia.com/omniverse/legacy-tools)
+
+Please [migrate](https://developer.nvidia.com/omniverse/legacy-tools) accordingly:
+
+- [Applications](https://developer.nvidia.com/omniverse/legacy-tools#ii4jrq): Applications previously available on Omniverse Launcher [falls into the following categories](https://developer.nvidia.com/omniverse/legacy-tools#ii4jrq):
+  - Applications still available for download and will continue to be supported. This includes: Blender 4.2 Alpha USD Branch (as [add-on hosted on GitHub](https://github.com/NVIDIA-Omniverse/blender_omniverse_addons)), Isaac Sim (as [executable binaries](https://docs.isaacsim.omniverse.nvidia.com/latest/installation/download.html), [pip package](https://docs.isaacsim.omniverse.nvidia.com/latest/installation/install_python.html), or [docker image](https://docs.isaacsim.omniverse.nvidia.com/latest/installation/install_container.html) on [NGC Catalog](https://catalog.ngc.nvidia.com/orgs/nvidia/containers/isaac-sim)), NVIDIA RTX Remix (on [NVIDIA App](https://github.com/NVIDIAGameWorks/rtx-remix)), Omniverse External Application Template (in [kit-app-template](https://github.com/NVIDIA-Omniverse/kit-app-template)), Omniverse Kit (in [kit-app-template](https://github.com/NVIDIA-Omniverse/kit-app-template)), Omniverse Farm Agent (on [NGC Catalog](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/omniverse/containers/farm-agent-k8s)), Omniverse Farm Queue (on [NGC Catalog](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/omniverse/containers/farm-queue)), Isaac Sim Compatibility Checker (as [executable binaries](https://docs.isaacsim.omniverse.nvidia.com/latest/installation/download.html) or on [NGC Catalog](https://catalog.ngc.nvidia.com/orgs/nvidia/containers/isaac-sim-comp-check)), Omniverse USD Composer (formerly _Omniverse Create_, in [kit-app-template](https://github.com/NVIDIA-Omniverse/kit-app-template)), Omniverse USD Explorer (in [kit-app-template](https://github.com/NVIDIA-Omniverse/kit-app-template)), USDView (in [kit-app-template](https://github.com/NVIDIA-Omniverse/kit-app-template) as _USD Viewer_).
+  - Applications available for download but will no longer be supported. This includes: Omniverse Nucleus Cache, Omniverse Drive Beta, Omniverse Nucleus Navigator, Omniverse Nucleus Workstation, Omniverse Nucleus Wrapp.
+  - Applications no longer available for download and are no longer supported. This includes: Bentley LumenRT, Omniverse Create XR, Omniverse Code, Omniverse Kaolin, Omniverse Machinima Beta, Omniverse Marbles RTX, Omniverse Mineways, Omniverse Showroom, Omniverse USD Presenter (formerly _Omniverse View_).
+- [Connectors](https://developer.nvidia.com/omniverse/legacy-tools#izitqj): Connectors previously available on Omniverse Launcher can [continue to be downloaded](https://developer.nvidia.com/omniverse/legacy-tools#izitqj) in [NGC Catalog](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/omniverse/collections/omni_connectors). They may no longer be actively developed but will receive patches as needed. This includes: Adobe Substance 3D Painter, Autodesk 3ds Max, Autodesk Alias, Autodesk Maya, Autodesk Revit, Epic Games Unreal Engine, Graphisoft Archicad, Kitware Paraview, McNeel Rhino/Grasshopper, PTC Creo, SideFX Houdini, Trimble SketchUp, Unity.
+- [Extensions](https://developer.nvidia.com/omniverse/legacy-tools#ivr252): Extensions previously available on Omniverse Launcher can [continue to be downloaded](https://developer.nvidia.com/omniverse/legacy-tools#ivr252) and used by developers, but are no longer supported. This includes ALPHA3D, Avataar, Avaturn, BAYA3D, Convai, Echo3D, Edge Impulse Data Ingestion, Evermotion, Fabricator, HDR Lightmap, in3D, KAEDIM, Moment Factory MPCDI, Moment Factory NDI, Motionverse, Move.AI, Nextspace, OctaneRender, PBRMax, Replica Studios, SmartCow LP-SDG, Syntway, Timedomain AI Singer, and VistoryBoard Omniverse.
+- [Content](https://developer.nvidia.com/omniverse/legacy-tools#i9torf): Sample assets and projects can be found in Omniverse Documentation under [USD example datasets](https://docs.omniverse.nvidia.com/usd/latest/usd_content_samples/sample_content.html) and [downloadable content packs](https://docs.omniverse.nvidia.com/usd/latest/usd_content_samples/downloadable_packs.html).
+
 ## ROS 1
 
-Robot Operating System (ROS) 1 [will reach EOL in May 2025](https://wiki.ros.org/Distributions).
+Robot Operating System (ROS) 1 [will reach EOL on May 2025](https://wiki.ros.org/Distributions).
 
 [ROS 1 distributions](https://wiki.ros.org/Distributions) include: Noetic Ninjemys, Melodic Morenia, Lunar Loggerhead, Kinetic Kame, Jade Turtle, Indigo Igloo, Hydro Medusa, Groovy Galapagos, Fuerte Turtle, Electric Emys, Diamondback, C Turtle, Box Turtle.
 
