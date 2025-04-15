@@ -20,44 +20,6 @@ Please [migrate](https://developer.nvidia.com/omniverse/legacy-tools) accordingl
 - [Extensions](https://developer.nvidia.com/omniverse/legacy-tools#ivr252): Extensions previously available on Omniverse Launcher can [continue to be downloaded](https://developer.nvidia.com/omniverse/legacy-tools#ivr252) and used by developers, but are no longer supported. This includes ALPHA3D, Avataar, Avaturn, BAYA3D, Convai, Echo3D, Edge Impulse Data Ingestion, Evermotion, Fabricator, HDR Lightmap, in3D, KAEDIM, Moment Factory MPCDI, Moment Factory NDI, Motionverse, Move.AI, Nextspace, OctaneRender, PBRMax, Replica Studios, SmartCow LP-SDG, Syntway, Timedomain AI Singer, and VistoryBoard Omniverse.
 - [Content](https://developer.nvidia.com/omniverse/legacy-tools#i9torf): Sample assets and projects can be found in Omniverse Documentation under [USD example datasets](https://docs.omniverse.nvidia.com/usd/latest/usd_content_samples/sample_content.html) and [downloadable content packs](https://docs.omniverse.nvidia.com/usd/latest/usd_content_samples/downloadable_packs.html).
 
-## ROS 1
-
-Robot Operating System (ROS) 1 [will reach EOL on May 2025](https://wiki.ros.org/Distributions).
-
-[ROS 1 distributions](https://wiki.ros.org/Distributions) include: Noetic Ninjemys, Melodic Morenia, Lunar Loggerhead, Kinetic Kame, Jade Turtle, Indigo Igloo, Hydro Medusa, Groovy Galapagos, Fuerte Turtle, Electric Emys, Diamondback, C Turtle, Box Turtle.
-
-> The last ROS 1 release Noetic will go end of life on May 31st with that the ROS Wiki will also be EOL and transition to being an archive.
->
-> -- [ROS 1](https://wiki.ros.org/Distributions)
-
-Please [migrate](https://docs.ros.org/en/rolling/How-To-Guides/Migrating-from-ROS1.html) to [ROS 2](https://docs.ros.org/en/rolling/index.html) ([distros](https://docs.ros.org/en/rolling/Releases.html) such as [Humble](https://docs.ros.org/en/humble/index.html)).
-
-## Gazebo Classic
-
-[Gazebo Classic](https://classic.gazebosim.org/) is deprecated.
-
-> As a convention we refer to older versions of Gazebo, those with release numbers like Gazebo 9 and Gazebo 11 as “Gazebo Classic”. Newer versions of Gazebo, formerly called “Ignition”, with lettered releases names like Harmonic, are referred to as just “Gazebo”.
->
-> -- [Gazebo](https://gazebosim.org/docs/latest/gazebo_classic_migration/)
-
-Gazebo 11 is the last major release of Gazebo.
-
-> It is bittersweet to announce that Gazebo Classic (Gazebo11) has reached end-of-life (EOL).
->
-> -- [Gazebo](https://community.gazebosim.org/)
-
-Please [migrate](https://gazebosim.org/docs/latest/gazebo_classic_migration/) to [Gazebo](https://gazebosim.org) ([distros](https://gazebosim.org/docs/latest/releases/) such as [Harmonic](https://gazebosim.org/docs/latest/releases/)) or [Isaac Sim](https://docs.isaacsim.omniverse.nvidia.com/latest/index.html).
-
-## Ignition
-
-Ignition is renamed to _Gazebo_.
-
-> Going forward, the modern robotics software collection formerly known as Ignition, is now branded Gazebo.
->
-> -- [Gazebo](https://gazebosim.org/about)
-
-Please [migrate](https://gazebosim.org/docs/latest/migration_from_ignition/) to [Gazebo](https://gazebosim.org) or [Isaac Sim](https://docs.isaacsim.omniverse.nvidia.com/latest/index.html).
-
 ## Isaac Orbit
 
 [Isaac Orbit](https://isaac-orbit.github.io) is renamed to _Isaac Lab_. The [GitHub repository](https://github.com/NVIDIA-Omniverse/Orbit) is released under the [BSD 3-Clause License](https://github.com/NVIDIA-Omniverse/Orbit/blob/main/LICENSE). It also has corresponding [research paper](https://arxiv.org/abs/2301.04195) and [project page](https://isaac-orbit.github.io/).
@@ -98,16 +60,6 @@ The latest release of Isaac Gym (Preview Release) is Preview 4, and [will not be
 
 Please [migrate](https://isaac-sim.github.io/IsaacLab/main/source/migration/migrating_from_isaacgymenvs.html) to [Isaac Lab](https://isaac-sim.github.io/IsaacLab/main/index.html).
 
-## Isaac AMR
-
-[Isaac AMR](https://developer.nvidia.com/isaac/amr) 1.0 and 2.0 are predecessors of Isaac Perceptor in Isaac ROS. Isaac AMR is an extension of Isaac SDK based on the Isaac Sight UI screenshots in [the documentation](https://docs.nvidia.com/isaac/doc/extensions/navigation_stack/doc/navigation_stack_on_isaac_sim.html), and some Isaac SDK docs have been redirected to Isaac AMR docs. It has a corresponding [blog post](https://blogs.nvidia.com/blog/isaac-amr-nova-orin-autonomous-mobile-robots/).
-
-> Yes, GXF bridge was deprecated. The AMR stack will be based on ROS going forward.
->
-> -- [NVIDIA Forum](https://forums.developer.nvidia.com/t/gxf-bridge-deprecated/278607)
-
-Please migrate to [Isaac Perceptor](https://nvidia-isaac-ros.github.io/reference_workflows/isaac_perceptor/index.html) in [Isaac ROS](https://nvidia-isaac-ros.github.io/).
-
 ## Isaac SDK
 
 [Isaac SDK](https://developer.nvidia.com/isaac-sdk) is the predecessor of Isaac ROS. It also has a corresponding [blog post](https://developer.nvidia.com/blog/introducing-isaac-sdk-2020-1/). Isaac SDK consists of Isaac GEMs and Isaac Applications based on Isaac (Robotics) Engine. The Isaac Sight GUI also belongs to Isaac SDK.
@@ -118,6 +70,16 @@ Please migrate to [Isaac Perceptor](https://nvidia-isaac-ros.github.io/reference
 
 Please migrate to [Isaac ROS](https://nvidia-isaac-ros.github.io/).
 
+## Isaac AMR
+
+[Isaac AMR](https://developer.nvidia.com/isaac/amr) 1.0 and 2.0 are predecessors of Isaac Perceptor in Isaac ROS. Isaac AMR is an extension of Isaac SDK based on the Isaac Sight UI screenshots in [the documentation](https://docs.nvidia.com/isaac/doc/extensions/navigation_stack/doc/navigation_stack_on_isaac_sim.html), and some Isaac SDK docs have been redirected to Isaac AMR docs. It has a corresponding [blog post](https://blogs.nvidia.com/blog/isaac-amr-nova-orin-autonomous-mobile-robots/).
+
+> Yes, GXF bridge was deprecated. The AMR stack will be based on ROS going forward.
+>
+> -- [NVIDIA Forum](https://forums.developer.nvidia.com/t/gxf-bridge-deprecated/278607)
+
+Please migrate to [Isaac Perceptor](https://nvidia-isaac-ros.github.io/reference_workflows/isaac_perceptor/index.html) in [Isaac ROS](https://nvidia-isaac-ros.github.io/).
+
 ## Isaac Sim Unity3D
 
 [Isaac Sim Unity3D](https://docs.nvidia.com/isaac/archive/2020.1/doc/simulation/unity3d.html) support [has been deprecated](https://forums.developer.nvidia.com/t/no-isaac-sim-unity3d-to-download/212951). The term _Isaac Sim_ now refer to the Omniverse Kit-based version.
@@ -127,3 +89,47 @@ Please migrate to [Isaac ROS](https://nvidia-isaac-ros.github.io/).
 > -- [NVIDIA Forum](https://forums.developer.nvidia.com/t/no-isaac-sim-unity3d-to-download/212951)
 
 Please migrate to [Isaac Sim](https://docs.isaacsim.omniverse.nvidia.com/latest/index.html).
+
+## (Omniverse) Replicator Insight
+
+[Replicator Insight](https://developer.nvidia.com/nvidia-omniverse/replicator-insight-eap) has been deprecated. The product webpage now redirects to the main Omniverse landing page, indicating it is no longer supported.
+
+Please migrate to [Replicator](https://docs.omniverse.nvidia.com/extensions/latest/ext_replicator.html).
+
+## ROS 1
+
+Robot Operating System (ROS) 1 [will reach EOL on May 2025](https://wiki.ros.org/Distributions).
+
+[ROS 1 distributions](https://wiki.ros.org/Distributions) include: Noetic Ninjemys, Melodic Morenia, Lunar Loggerhead, Kinetic Kame, Jade Turtle, Indigo Igloo, Hydro Medusa, Groovy Galapagos, Fuerte Turtle, Electric Emys, Diamondback, C Turtle, Box Turtle.
+
+> The last ROS 1 release Noetic will go end of life on May 31st with that the ROS Wiki will also be EOL and transition to being an archive.
+>
+> -- [ROS 1](https://wiki.ros.org/Distributions)
+
+Please [migrate](https://docs.ros.org/en/rolling/How-To-Guides/Migrating-from-ROS1.html) to [ROS 2](https://docs.ros.org/en/rolling/index.html) ([distros](https://docs.ros.org/en/rolling/Releases.html) such as [Humble](https://docs.ros.org/en/humble/index.html)).
+
+## Gazebo Classic
+
+[Gazebo Classic](https://classic.gazebosim.org/) is deprecated.
+
+> As a convention we refer to older versions of Gazebo, those with release numbers like Gazebo 9 and Gazebo 11 as “Gazebo Classic”. Newer versions of Gazebo, formerly called “Ignition”, with lettered releases names like Harmonic, are referred to as just “Gazebo”.
+>
+> -- [Gazebo](https://gazebosim.org/docs/latest/gazebo_classic_migration/)
+
+Gazebo 11 is the last major release of Gazebo.
+
+> It is bittersweet to announce that Gazebo Classic (Gazebo11) has reached end-of-life (EOL).
+>
+> -- [Gazebo](https://community.gazebosim.org/)
+
+Please [migrate](https://gazebosim.org/docs/latest/gazebo_classic_migration/) to [Gazebo](https://gazebosim.org) ([distros](https://gazebosim.org/docs/latest/releases/) such as [Harmonic](https://gazebosim.org/docs/latest/releases/)) or [Isaac Sim](https://docs.isaacsim.omniverse.nvidia.com/latest/index.html).
+
+## Ignition
+
+Ignition is renamed to _Gazebo_.
+
+> Going forward, the modern robotics software collection formerly known as Ignition, is now branded Gazebo.
+>
+> -- [Gazebo](https://gazebosim.org/about)
+
+Please [migrate](https://gazebosim.org/docs/latest/migration_from_ignition/) to [Gazebo](https://gazebosim.org) or [Isaac Sim](https://docs.isaacsim.omniverse.nvidia.com/latest/index.html).
