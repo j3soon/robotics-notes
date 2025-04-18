@@ -44,3 +44,22 @@ References:
 - [Isaac Sim Rendering Issue on RTX 50 series](https://forums.developer.nvidia.com/t/isaac-sim-rendering-issue-on-rtx-50-series/329300)
 
 > 2025-04-08. Isaac Sim v4.5.0. <!-- Ack: Jease. -->
+
+## Collision Mesh Fidelity
+
+Q: How can I improve the fidelity of Isaac Sim's collision meshes?
+
+A: Tune the parameters in `Property > Collider` of the object mesh. For an example:
+
+| Step | Screenshot |
+|------|------------|
+| 1. Convex Decomposition | ![Step 1](../assets/images/collision-mesh-fidelity/01-convex-decomposition.png) |
+| 2. Shrink Wrap | ![Step 2](../assets/images/collision-mesh-fidelity/02-shrink-wrap.png) |
+| 3. Max Convex Hull | ![Step 3](../assets/images/collision-mesh-fidelity/03-max-convex-hull.png) |
+
+Related:
+
+- [How to programmatically apply Convex Decomposition with Shrink Wrap to match Isaac Sim UI defaults?](https://forums.developer.nvidia.com/t/how-to-programmatically-apply-convex-decomposition-with-shrink-wrap-to-match-isaac-sim-ui-defaults/310338)
+- [Collision Settings \| Omniverse Extensions](https://docs.omniverse.nvidia.com/extensions/latest/ext_physics/rigid-bodies.html#collision-settings)
+
+> 2025-04-14. Isaac Sim v4.5.0. <!-- Ack: [@ben25000233](https://github.com/ben25000233). -->
