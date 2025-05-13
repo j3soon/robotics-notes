@@ -101,3 +101,64 @@ Reference:
 - [Jetson Orin Nano Super Datasheet](https://nvdam.widen.net/s/zkfqjmtds2/jetson-orin-datasheet-nano-developer-kit-3575392-r2)
 
 > 2025-04-01. Jetson Orin Nano (Super). <!-- Ack: Anita. -->
+
+## Jetson Docker Base Images
+
+Q: What's the difference between `l4t-base`, `l4t-jetpack`, and `ubuntu`.
+
+A: See the following:
+
+- [`nvcr.io/nvidia/l4t-base`](https://catalog.ngc.nvidia.com/orgs/nvidia/containers/l4t-base/tags) is mainly used in JetPack 4.x, and I believe is no longer maintained anymore since the latest tag `r36.2.0` (correspond to JetPack 6.0 Developer Preview) is from 2023.
+- [`nvcr.io/nvidia/l4t-jetpack`](https://catalog.ngc.nvidia.com/orgs/nvidia/containers/l4t-jetpack/tags) is mainly used in JetPack 5.x, and I believe is still being maintained. The latest tag `r36.4.0` corresponds to JetPack 6.1. (However, I'm not sure if `r36.4.0` is fully compatible with JetPack 6.2, which corresponds to L4T R36.4.3.)
+- [`nvcr.io/nvidia/ubuntu`](https://catalog.ngc.nvidia.com/orgs/nvidia/containers/ubuntu/tags) is the official Ubuntu base image. The tag `22.04` can also be used for Jetson after JetPack 6.x.
+
+I'll suggest using [`dusty-nv/jetson-containers`](https://github.com/dusty-nv/jetson-containers) to build custom images.
+
+References:
+
+- [Changing the Base Image \| `dusty-nv/jetson-containers`](https://github.com/dusty-nv/jetson-containers/blob/master/docs/build.md#changing-the-base-image)
+- [NVIDIA docker container l4t-base:r36.3.0 not released](https://forums.developer.nvidia.com/t/nvidia-docker-container-l4t-base-r36-3-0-not-released/303852)
+- [No l4t-base:r36.3.0 docker image](https://forums.developer.nvidia.com/t/no-l4t-base-r36-3-0-docker-image/309826)
+
+> 2025-05-14.
+
+## JetPack and L4T Version Conversion
+
+Q: How to convert JetPack version to L4T version?
+
+A: See [JetPack Archive](https://developer.nvidia.com/embedded/jetpack-archive). For example, JetPack 6.2 corresponds to L4T R36.4.3. You can also find the CUDA version by clicking the corresponding JetPack version.
+
+If you forgot the JetPack version used to flash your Jetson device, find the L4T version by `cat /etc/nv_tegra_release` and then reverse look up the JetPack version.
+
+Reference:
+
+- [How to check the JetPack Version](https://forums.developer.nvidia.com/t/how-to-check-the-jetpack-version/69549)
+
+> 2025-05-14.
+
+## Environment Setup After Reflashing Jetson
+
+Q: What is the recommended environment setup after reflashing Jetson?
+
+A: Personally, I'll use Ansible to install all basic dependencies (AutoLogin, VNC, etc.) with a single command. See [`j3soon/ansible-playbooks`](https://github.com/j3soon/ansible-playbooks) for further details.
+
+> 2025-05-14.
+
+## GPU Access Issue Before Logging In
+
+Q: I'm facing an issue where the GPU is not accessible before logging in. How can I fix this?
+
+A: Consider setting up automatic login by editing the `/etc/gdm3/custom.conf` file with the following:
+
+```bash
+AutomaticLoginEnable = true
+AutomaticLogin = <YOUR_USERNAME>
+```
+
+Related:
+
+- [How to enable automatic login for Jetson Nano?](https://forums.developer.nvidia.com/t/how-to-enable-automatic-login-for-jetson-nano/231353)
+- [How to make the system login automatically](https://forums.developer.nvidia.com/t/how-to-make-the-system-login-automatically/82950)
+- [GPU Access Issue with NVIDIA JetPack 6.1 Docker Image](https://github.com/dusty-nv/jetson-containers/issues/763)
+
+> 2025-05-14.
