@@ -14,7 +14,7 @@ A: Jetson Orin Nano is not the same as Jetson Nano. Since Jetson Orin Nano is a 
 
 Reference: [Jetson Modules](https://developer.nvidia.com/embedded/jetson-modules)
 
-> 2024-10-02. Jetson Orin Nano. <!-- Ack: bautista. -->
+> 2024-10-02. Jetson Orin Nano.
 
 ## NVMe SSD vs. microSD Card
 
@@ -30,7 +30,7 @@ Related:
 - [Jetson Orin Nano Super + SSD \| JetsonHacks](https://youtu.be/497u-CcYvE8)
 - [Jetson AGX Xavier + SSD \| JetsonHacks](https://youtu.be/x0TBTYw7HKs)
 
-> 2024-10-02. Jetson Orin Nano. <!-- Ack: bautista. -->
+> 2024-10-02. Jetson Orin Nano.
 
 ## Recommended NVMe SSD Storage
 
@@ -45,7 +45,7 @@ References:
 - [Jetson Orin Nano Super + SSD \| JetsonHacks](https://youtu.be/497u-CcYvE8)
 - [Jetson AGX Xavier + SSD \| JetsonHacks](https://youtu.be/x0TBTYw7HKs)
 
-> 2024-10-12. Jetson Orin Nano. <!-- Ack: bautista. -->
+> 2024-10-12. Jetson Orin Nano.
 
 ## LLM/VLM on Jetson AGX Orin
 
@@ -58,7 +58,7 @@ References:
 - [Tutorial - LLaVA \| NVIDIA Jetson AI Lab](https://www.jetson-ai-lab.com/tutorial_llava.html)
 - [Tutorial - Small Language Models (SLM) \| NVIDIA Jetson AI Lab](https://www.jetson-ai-lab.com/tutorial_slm.html)
 
-> 2024-10-20. Jetson AGX Orin. <!-- Ack: CYL. -->
+> 2024-10-20. Jetson AGX Orin.
 
 ## Power Supply for Jetson Orin Nano
 
@@ -66,7 +66,7 @@ Q: What is the recommended power supply for using Jetson Orin Nano on mobile gro
 
 A: If your mobile ground robot is large enough, you can simply use a large power bank. Personally I've tried a large enerpad AC40K with 40K mAh, and it seems to work well.
 
-> 2024-10-23. Jetson Orin Nano. <!-- Ack: bautista. -->
+> 2024-10-23. Jetson Orin Nano.
 
 ## (Open Issue) Fail to Control GPIO in Jetpack 6.x
 
@@ -80,7 +80,7 @@ References:
 - [`otischung/jetson_linux_36.4.3`](https://github.com/otischung/jetson_linux_36.4.3)
 - [`jetsonhacks/jetson-orin-gpio-patch`](https://github.com/jetsonhacks/jetson-orin-gpio-patch)
 
-> 2024-11-08. Jetson Orin Nano. <!-- Ack: [@otischung](https://github.com/otischung). -->
+> 2024-11-08. Jetson Orin Nano.
 >
 > - Jetpack 6.0 L4T 36.3.0
 > - Jetpack 6.1 L4T 36.4.0
@@ -100,7 +100,7 @@ Reference:
 
 - [Jetson Orin Nano Super Datasheet](https://nvdam.widen.net/s/zkfqjmtds2/jetson-orin-datasheet-nano-developer-kit-3575392-r2)
 
-> 2025-04-01. Jetson Orin Nano (Super). <!-- Ack: Anita. -->
+> 2025-04-01. Jetson Orin Nano (Super).
 
 ## Jetson Docker Base Images
 

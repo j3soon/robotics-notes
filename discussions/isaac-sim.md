@@ -14,7 +14,7 @@ Related:
 
 - [Legacy Tools for Omniverse Launcher](https://developer.nvidia.com/omniverse/legacy-tools)
 
-> 2025-02-27. Isaac Sim v4.5.0. <!-- Ack: Ren-Jie, Lu? -->
+> 2025-02-27. Isaac Sim v4.5.0.
 
 ## GUI Mode in Isaac Sim Docker Container
 
@@ -22,7 +22,7 @@ Q: How can I run Isaac Sim in GUI mode in a Docker container?
 
 A: See [docker-isaac-sim](docker-isaac-sim.md).
 
-> 2025-02-28. Isaac Sim v4.5.0. <!-- Ack: Audrey Chung. -->
+> 2025-02-28. Isaac Sim v4.5.0.
 
 ## GUI Mode in Ubuntu Server
 
@@ -30,7 +30,7 @@ Q: How can I run Isaac Sim in GUI mode on an Ubuntu server (non-desktop environm
 
 A: You can use [WebRTC](https://docs.isaacsim.omniverse.nvidia.com/latest/installation/manual_livestream_clients.html) or desktop forwarding such as VNC. Make sure you have a stable internet connection between the server and the client. Otherwise, you may encounter latency (or lagging) issues.
 
-> 2025-03-03. Isaac Sim v4.5.0. <!-- Ack: Eric Chen. -->
+> 2025-03-03. Isaac Sim v4.5.0.
 
 ## (Open Issue) Blurry Screen on RTX 50 Series GPUs
 
@@ -43,7 +43,7 @@ References:
 - [The Isaac Sim GUI is blurry](https://forums.developer.nvidia.com/t/the-isaac-sim-gui-is-blurry/327759)
 - [Isaac Sim Rendering Issue on RTX 50 series](https://forums.developer.nvidia.com/t/isaac-sim-rendering-issue-on-rtx-50-series/329300)
 
-> 2025-04-08. Isaac Sim v4.5.0. <!-- Ack: Jease. -->
+> 2025-04-08. Isaac Sim v4.5.0.
 
 ## Collision Mesh Fidelity
 
@@ -62,4 +62,4 @@ Related:
 - [How to programmatically apply Convex Decomposition with Shrink Wrap to match Isaac Sim UI defaults?](https://forums.developer.nvidia.com/t/how-to-programmatically-apply-convex-decomposition-with-shrink-wrap-to-match-isaac-sim-ui-defaults/310338)
 - [Collision Settings \| Omniverse Extensions](https://docs.omniverse.nvidia.com/extensions/latest/ext_physics/rigid-bodies.html#collision-settings)
 
-> 2025-04-14. Isaac Sim v4.5.0. <!-- Ack: [@ben25000233](https://github.com/ben25000233). -->
+> 2025-04-14. Isaac Sim v4.5.0.

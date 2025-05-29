@@ -17,7 +17,7 @@ Related:
 - [Interpenetration between shadow hand and rigid body during interaction](https://github.com/isaac-sim/IsaacLab/issues/1515)
 - [Objects penetrating each other - Collision Physics Issue in Nvidia Isaac Sim](https://forums.developer.nvidia.com/t/objects-penetrating-each-other-collision-physics-issue-in-nvidia-isaac-sim/269387)
 
-> 2025-03-02. Isaac Lab v2.0.1. <!-- Ack: [@ben25000233](https://github.com/ben25000233). -->
+> 2025-03-02. Isaac Lab v2.0.1.
 
 ## Deformable Body Mass
 
@@ -25,7 +25,7 @@ Q: Modifying the density of a soft body doesn't seem to affect the mass of the b
 
 A: Modifying [DeformableBodyMaterialCfg.density](https://isaac-sim.github.io/IsaacLab/main/source/api/lab/isaaclab.sim.spawners.html#isaaclab.sim.spawners.materials.DeformableBodyMaterialCfg.density) can affect the mass of the deformable body. However, it may not be easily observable depending on the simulation environment. For an example, take [the deformable body example](https://isaac-sim.github.io/IsaacLab/main/source/tutorials/01_assets/run_deformable_object.html), and [add a `density` field to the `DeformableBodyMaterialCfg`](https://github.com/isaac-sim/IsaacLab/blob/4868e19c1df21715d6f58c03578d2ea0f29c7561/scripts/tutorials/01_assets/run_deformable_object.py#L68) and set it to `1` and then `1000`. You should see the mass of the deformable body changes. Alternatively, you can use the [Mass API](https://github.com/isaac-sim/IsaacLab/blob/4868e19c1df21715d6f58c03578d2ea0f29c7561/source/isaaclab/test/sim/test_spawn_meshes.py#L141-L147) instead of the `density` field.
 
-> 2025-03-02. Isaac Lab v2.0.1. <!-- Ack: [@ben25000233](https://github.com/ben25000233). -->
+> 2025-03-02. Isaac Lab v2.0.1.
 
 ## Fluid Simulation
 
@@ -41,4 +41,4 @@ Related:
 - [Resetting a Cloth object (or any custom object outside of SceneCfg)](https://github.com/isaac-sim/IsaacLab/discussions/1105)
 - [Deformable Object Simulation Capability](https://github.com/isaac-sim/IsaacLab/discussions/587)
 
-> 2025-03-02. Isaac Lab v2.0.1. <!-- Ack: [@ben25000233](https://github.com/ben25000233). -->
+> 2025-03-02. Isaac Lab v2.0.1.

@@ -15,4 +15,4 @@ Related:
 - [Reference vs Payload vs Instance?](https://docs.omniverse.nvidia.com/isaacsim/latest/isaac_FAQ.html)
 - [USD Variant Authoring - Part 3: LVRPS](https://youtu.be/HXZysoTjsV8?list=PL3jK4xNnlCVfuQjmvL_p98jtLHz-Zh6Xa)
 
-> 2025-01-22. Isaac Sim v4.5.0. <!-- Ack: Yi-Jie Du. -->
+> 2025-01-22. Isaac Sim v4.5.0.

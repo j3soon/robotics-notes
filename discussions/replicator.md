@@ -10,4 +10,4 @@ Q: What's the difference between the Omniverse Replicator documentation and the 
 
 A: The [Omniverse Replicator documentation](https://docs.omniverse.nvidia.com/extensions/latest/ext_replicator.html) is for using Replicator directly through Omniverse Kit, without using Isaac Sim. While the [Isaac Sim Replicator documentation](https://docs.omniverse.nvidia.com/isaacsim/latest/replicator_tutorials/index.html) is for using Replicator through Isaac Sim, including examples related to robotics applications. For Isaac Sim users, I suggest directly refer to the Isaac Sim Replicator documentation, and use the Omniverse Replicator documentation as a reference for general Replicator usage.
 
-> 2025-02-22. Isaac Sim v4.5.0. <!-- Ack: Yi-Jie Du. -->
+> 2025-02-22. Isaac Sim v4.5.0.
