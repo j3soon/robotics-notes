@@ -42,3 +42,21 @@ Related:
 - [Deformable Object Simulation Capability](https://github.com/isaac-sim/IsaacLab/discussions/587)
 
 > 2025-03-02. Isaac Lab v2.0.1.
+
+## PhysX Error: Patch Buffer Overflow Detected
+
+Q: I'm getting the following error when running the simulation:
+
+```
+[Error] [omni.physx.plugin] PhysX error: Patch buffer overflow detected, please increase its size to at least 503808 in the scene desc!
+```
+
+A: Increase the value of `gpu_max_rigid_patch_count` (such as `2**24`) in [simulation_cfg.py](https://github.com/isaac-sim/IsaacLab/blob/a520a883ce996d855cc9d5255d71fd1c1307633f/source/extensions/omni.isaac.lab/omni/isaac/lab/sim/simulation_cfg.py#L113).
+
+Related:
+
+- [[Question] Is there a solution for the Patch buffer overflow error?](https://github.com/isaac-sim/IsaacLab/issues/931)
+- [How to resolve this error: “Patch buffer overflow detected”](https://forums.developer.nvidia.com/t/how-to-resolve-this-error-patch-buffer-overflow-detected/276511)
+- [[Question] PhysX Error: Material Limit and Buffer Overflow Issues with High Agent Counts in IsaacLab](https://github.com/isaac-sim/IsaacLab/issues/941)
+
+> 2025-05-29. Isaac Lab v1.x.
