@@ -79,6 +79,8 @@ References:
 - [`otischung/jetson_linux_36.4`](https://github.com/otischung/jetson_linux_36.4)
 - [`otischung/jetson_linux_36.4.3`](https://github.com/otischung/jetson_linux_36.4.3)
 - [`jetsonhacks/jetson-orin-gpio-patch`](https://github.com/jetsonhacks/jetson-orin-gpio-patch)
+- [jetson-gpio doesn't work on Jetpack 6.0 ???](https://github.com/NVIDIA/jetson-gpio/issues/114)
+- [GPIO not working on Jetson Orin Nano Super Developer Kit](https://github.com/NVIDIA/jetson-gpio/issues/120)
 
 > 2024-11-08. Jetson Orin Nano.
 >

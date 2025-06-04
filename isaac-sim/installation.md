@@ -65,3 +65,4 @@ wget https://download.isaacsim.omniverse.nvidia.com/isaacsim-webrtc-streaming-cl
 
 - [Setup Tips \| Isaac Sim Documentation](https://docs.isaacsim.omniverse.nvidia.com/4.5.0/installation/install_faq.html)
 - [Linux Troubleshooting \| Omniverse Developer Guide](https://docs.omniverse.nvidia.com/dev-guide/latest/linux-troubleshooting.html)
+- [Robot Simulation Tips \| Isaac Sim Documentation](https://docs.isaacsim.omniverse.nvidia.com/4.5.0/robot_simulation/robot_simulation_tips.html)

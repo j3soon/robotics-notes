@@ -60,3 +60,21 @@ Related:
 - [[Question] PhysX Error: Material Limit and Buffer Overflow Issues with High Agent Counts in IsaacLab](https://github.com/isaac-sim/IsaacLab/issues/941)
 
 > 2025-05-29. Isaac Lab v1.x.
+
+## Run on a Specific GPU in Multi-GPU Environment
+
+Q: How to isolate a Isaac Lab instance to only use a pre-selected GPU in a multi-GPU environment?
+
+A: Use `CUDA_VISIBLE_DEVICES` environment variable. For example:
+
+```sh
+CUDA_VISIBLE_DEVICES=1 ./isaaclab.sh -p scripts/reinforcement_learning/rl_games/train.py --task=Isaac-Cartpole-v0 --headless
+```
+
+Related:
+
+- [[Question] How to run train.py on a specific GPU?](https://github.com/isaac-sim/IsaacLab/issues/1849)
+- [[Bug Report] Unable to force the training to stay only on one GPU](https://github.com/isaac-sim/IsaacLab/issues/2148)
+- [[Bug Report] --device_id can not work](https://github.com/isaac-sim/IsaacLab/issues/769)
+
+> 2025-06-04. Isaac Lab v1.x.
