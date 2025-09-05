@@ -2,9 +2,11 @@
 
 Table of Contents:
 
-- [Discussions](./discussions.md)
+- [Isaac Sim](./isaac-sim/installation.md)
+- [Deprecated Components](./deprecated-components.md)
 - [Docker Isaac Sim](./docker-isaac-sim.md)
 - [NVIDIA Isaac Summary](./nvidia-isaac-summary.md)
+- [Discussions](./discussions/general.md)
 
 All documentation sources are available at [j3soon/robotics-notes](https://github.com/j3soon/robotics-notes) on GitHub.
 
