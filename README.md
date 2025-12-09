@@ -3,9 +3,13 @@
 Table of Contents:
 
 - [Isaac Sim](./isaac-sim/installation.md)
+- [NVIDIA Isaac Summary](./nvidia-isaac-summary.md)
 - [Deprecated Components](./deprecated-components.md)
 - [Docker Isaac Sim](./docker-isaac-sim.md)
-- [NVIDIA Isaac Summary](./nvidia-isaac-summary.md)
+- [Singularity Isaac Sim & Lab](./singularity-isaac-sim.md)
+- [Isaac Sim (and Isaac Lab) on Colab](./isaac-sim-colab.md)
+- [Running Isaac Sim Workloads on NVIDIA Run:ai](./runai-isaac.md)
+- [Running Isaac Sim Workloads on Omniverse Farm](./omni-farm-isaac.md)
 - [Discussions](./discussions/general.md)
 
 All documentation sources are available at [j3soon/robotics-notes](https://github.com/j3soon/robotics-notes) on GitHub.
